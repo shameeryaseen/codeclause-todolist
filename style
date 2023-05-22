@@ -1,1 +1,36 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);
+  }
+  h3{
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+
+  }
+  
+  #todo-list {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #new-todo {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  #add-todo {
+    width: 100%;
+    background-color: #182747;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
 
